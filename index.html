@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mwangi Mbogo Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="/Assets/icons/favicon_io/favicon.ico">
+  <link rel="stylesheet" href="./CSS/style.css"/>
+  <link rel="stylesheet" href="./CSS/animation.css"/>
+  <link rel="stylesheet" href="./CSS/color-mode.css"/>
+</head>
+<body>
+
+  <div id="hero">
+    <h5>Hello, I'm</h5>
+    <h1>Mwangi Mbogo</h1>
+    <p>Front-End Website Developer</p>
+
+    <div id="hero_animation">
+      <div id="hero_animation_img"></div>
+    </div>
+  </div>
+
+  <div id="grid">
+    <div id="grid_tl">
+      <div id="grid_tl_btn">About</div>
+      <div id="grid_tl_content">
+        <div class="cards">
+          <div class="cards_content">
+            <article>
+              <img src="./Assets/icons/experience.png" alt="experience icon" class="icon"/>
+              <h2>Experience</h2>
+              <p>6 Months +<br/> Developers<br/> Experience</p>
+            </article>
+            <p class="cards_content_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+               Assumenda, nobis eaque quasi dolorem fugiat consectetur magni id saepe.
+            </p>
+          </div>
+          <div class="cards_content">
+            <article>
+              <img src="./Assets/icons/education.png" alt="education icon" class="icon"/>
+              <h2>Education</h2>
+              <p>B. Sc. Mechanical Engineering</p>
+            </article>
+            <p class="cards_content_text">''
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+               Assumenda, nobis eaque quasi dolorem fugiat consectetur magni id saepe.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="grid_tr">
+      <div id="grid_tr_btn">Experience</div>
+      <div id="grid_tr_content">
+        <div class="cards experience">
+          <article class="experience_skill">
+            <h2>Frontend Development</h2>
+            <div>
+             <img src="./Assets/icons/checkmark.png" alt="checkmark icon" class="icon"/>
+
+             <div>
+                <h2>HTML</h2>
+                <P>Experience</P>
+             </div>
+            </div>
+            <div>
+             <img src="./Assets/icons/checkmark.png" alt="checkmark icon" class="icon"/>
+
+             <div>
+                <h2>CSS</h2>
+                <P>Experience</P>
+             </div>
+            </div>
+             <div>
+             <img src="./Assets/icons/checkmark.png" alt="checkmark icon" class="icon"/>
+
+             <div>
+                <h2>JavaScript</h2>
+                <P>Intermediate</P>
+             </div>
+            </div>
+            <div>
+             <img src="./Assets/icons/checkmark.png" alt="checkmark icon" class="icon"/>
+
+             <div>
+                <h2>ReactJS</h2>
+                <P>Basic</P>
+             </div>
+            </div>
+          </article>
+          <article class="experience_skill">
+            <h2>Backend Development</h2>
+            <div>
+             <img src="./Assets/icons/checkmark.png" alt="checkmark icon" class="icon"/>
+
+             <div>
+                <h2>MongoDB</h2>
+                <P>Basic</P>
+             </div>
+            </div>
+            <div>
+             <img src="./Assets/icons/checkmark.png" alt="checkmark icon" class="icon"/>
+
+             <div>
+                <h2>NodeJS</h2>
+                <P>Intermediate</P>
+             </div>
+            </div>
+             <div>
+             <img src="./Assets/icons/checkmark.png" alt="checkmark icon" class="icon"/>
+
+             <div>
+                <h2>ExpressJS</h2>
+                <P>Intermediate</P>
+             </div>
+            </div>
+            <div>
+             <img src="./Assets/icons/checkmark.png" alt="checkmark icon" class="icon"/>
+
+             <div>
+                <h2>Git</h2>
+                <P>Experience</P>
+             </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div id="grid_bl">
+      <div id="grid_bl_btn">Projects</div>
+      <div id="grid_bl_content">
+        <div id="grid_bl_content_projects">
+          <div class="project p-1">
+            <img class="project_img project_1"
+              src="Assets/portfolio-projects/project-1-dark.png" 
+              alt="project-1"
+            />
+            <h2 class="project_title">Project One</h2>
+            <button class="btn" onclick="window.location.href=`https://google.com`">Demo</button>
+            <button class="btn" onclick="window.location.href=`https://github.com/Mwangi-Mbogo`">GitHub</button>
+          </div>
+          <div class="project p-2">
+            <img class="project_img project_2"
+              src="Assets/portfolio-projects/project-2-dark.png" 
+              alt="project-2"
+            />
+            <h2 class="project_title">Project Two</h2>
+            <button class="btn" onclick="window.location.href=`https://google.com`">Demo</button>
+            <button class="btn" onclick="window.location.href=`https://github.com/Mwangi-Mbogo`">GitHub</button>
+          </div>
+          <div class="project p-3">
+            <img class="project_img project_3"
+              src="Assets/portfolio-projects/project-3-dark.png" 
+              alt="project-3"
+            />
+            <h2 class="project_title">Project Three</h2>
+            <button class="btn" onclick="window.location.href=`https://google.com`">Demo</button>
+            <button class="btn" onclick="window.location.href=`https://github.com/Mwangi-Mbogo`">GitHub</button>
+          </div>
+          <button class="arrow" onclick="navigateProject(-1)">&#10094;</button>
+          <button class="arrow" onclick="navigateProject(-1)">&#10095;</button>
+        </div>
+      </div>
+    </div>
+    <div id="grid_br">
+      <div id="grid_br_btn">Contact</div>
+      <div id="grid_br_content">
+        <h5 class="contact-text">Get In Touch</h5>
+        <h2 class="contact-text">Contact Me</h2>
+        <div>
+          <button class="btn btn-contact"
+           onclick="window.location.href=`mailto: paulmwangi0000@gmail.com`">
+           Email
+          </button>
+          <button class="btn btn-contact"
+           onclick="window.location.href=`https://www.linkedin.com`">
+           Linkedin
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="color-mode">
+    <div id="toggle-button" class="icon"></div>
+  </div>
+  
+  <script defer src="/JS/animation.js"></script>
+  <script defer src="/JS/color-mode.js"></script>
+  <script defer src="/JS/project-slideshow.js"></script>
+</body>
+</html>
